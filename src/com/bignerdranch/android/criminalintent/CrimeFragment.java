@@ -12,9 +12,6 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 
-import java.text.DateFormat;
-import java.util.Locale;
-
 public class CrimeFragment extends Fragment {
 
     private Crime mCrime;
