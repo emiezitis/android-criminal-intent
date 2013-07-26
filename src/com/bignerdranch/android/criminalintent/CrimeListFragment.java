@@ -93,6 +93,9 @@ public class CrimeListFragment extends ListFragment {
                 i.putExtra(CrimeFragment.EXTRA_CRIME_ID, crime.getId());
                 startActivityForResult(i, 0);
                 return true;
+            case R.id.menu_item_show_subtitle:
+                getActivity().getActionBar().setSubtitle(R.string.subtitle);
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
